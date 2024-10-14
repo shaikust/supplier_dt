@@ -1,0 +1,90 @@
+
+
+  /* Align titles to the left */
+.card-title {
+  color: #004481;
+  text-align: left;
+  margin-left: 240px; /* Add some space below the title */
+}
+
+/* Form container */
+.sup-form-container {
+  padding: 20px;
+  text-align: center; /* Center align the contents within the container */
+}
+
+/* Form section style */
+.form-section {
+  border: 1px solid  #4e6264;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 1115px;
+  background-color: #F8FAFC;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: auto; /* Center the form section */
+  margin-right: auto;
+  position: relative; /* To use absolute positioning inside */
+}
+
+/* Submit button to the right */
+.button {
+  text-align: right; /* Aligns the button to the right */
+  margin-top: 20px;
+  margin-right: 250px;
+  
+}
+
+.contact-detail-card, .supplier-id-card {
+  border: 1px solid #CECECE;
+  border-radius: 15px;
+  background-color: #F8FAFC;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center the items within the card */
+}
+
+.form-item-left-align .ant-form-item-label {
+  text-align: left;
+  margin-bottom: 8px; /* Adjust as needed */
+}
+
+.form-item-left-align .ant-form-item-control-input {
+  text-align: left;
+}
+
+/* supform.css */
+
+/* Left-align validation messages */
+.ant-form-item-explain {
+  text-align: left;
+  color: red; /* Optional: if you want to ensure the color is red */
+}
+
+.ant-form-item-explain-error {
+  text-align: left;
+  color: red; /* Optional: if you want to ensure the color is red */
+}
+
+
+
+.contact-detail-fields, .supplier-id-fields {
+  flex: 1;
+  margin-left: auto; /* Center the fields */
+  margin-right: auto;
+}
+
+.remove-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center the remove button */
+}
+
+.add-button-container {
+  text-align: center; /* Center the add button */
+  margin-top: 20px;
+}
